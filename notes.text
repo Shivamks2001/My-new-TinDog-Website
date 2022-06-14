@@ -1,0 +1,53 @@
+// font awesome -> for apple and google play icon in download btn(https://fontawesome.com/)
+
+-> cdn of fontawesome so that we can add font awesome to our website for embedding icons = <script src="https://kit.fontawesome.com/6cc89595e6.js" crossorigin="anonymous"></script>
+
+search for specific icon then use its html code
+
+Note - if in font awesome
+       class="fa-solid fa-bullseye"
+       to increase its size add fa-4x or any valid x in the class part(fa bcoz its in solid as well as bullseyes)
+
+// Z-Index
+
+basically each element has x and y position so we can move it on screen anywhere but it also has z-index which states that it is more towards us or more towards back
+
+note : inner div sits on the outer div
+
+note : 
+       <div>a</div>
+       <div>b</div>
+       <div>c</div>
+
+div a will be more towards back then b is in middle then c is more towards us(natural stacking order by html)
+
+to change stacking order we use z-index in css(but there are many components that effects stacking order)
+
+note -> default z-index of all element is 0(the more z-index the more it will be towards screen)
+
+note -> z-index only works(can be noticed) if respective element is having position other than static
+
+to understand stacking order -> file:///C:/Users/shivam/Downloads/Stacking+Order+Flowchart+v2.1%20(1).pdf
+
+// Media Query Breakpoints
+
+for responsive web design using CSS native features
+
+in it we provide Breakpoints basically some situations and when that situation comes then the changes provided inside @media get refleted on screen and example of it is in last part of css style section
+
+
+// Advance CSS - Combining selectors
+
+selector1, selector2{
+       // will be applied to both selectors
+}
+
+selector another-selector{
+       // selector is parent and another-selector is child so the property will be applied to child
+}
+
+selector.any-class || selector#any-id
+{
+       // same selector having specific class or id will  get changed
+}
+
